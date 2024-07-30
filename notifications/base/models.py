@@ -22,7 +22,7 @@ from notifications.utils import id2slug
 from swapper import load_model
 
 # Fixed for Django 5.1rc1 version string compat!
-from django.contrib.contenttypes.generic import GenericForeignKey  # noqa
+from django.contrib.contenttypes.fields import GenericForeignKey  # noqa
 
 try:
     # Django >= 1.7
